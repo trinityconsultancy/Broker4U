@@ -14,13 +14,13 @@ export default function Home() {
       <section id="hero">
         <Hero />
       </section>
-      <section id="roadmap" className="py-20">
+      <section id="roadmap" className="py-4">
         <RoadmapBlog />
       </section>
-      <section id="contact-us" className="py-20">
+      <section id="faqs" className="py-4">
         <ContactFaq />
       </section>
-      <section id="faqs" className="py-20">
+      <section id="founders" className="py-4">
         <Founders />
       </section>
       <Footer />

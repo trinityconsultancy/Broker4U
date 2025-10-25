@@ -59,7 +59,6 @@ export default function Footer() {
               {[
                 { icon: Linkedin, href: "#", label: "LinkedIn" },
                 { icon: Twitter, href: "#", label: "Twitter" },
-                { icon: Instagram, href: "#", label: "Instagram" },
               ].map(({ icon: Icon, href, label }) => (
                 <Link
                   key={label}

@@ -7,20 +7,20 @@ export default function Hero() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false)
 
   return (
-    <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background via-background to-background/95">
+    <section className="pt-32 pb-4 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background via-background to-background/95">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start leading-7 mx-0 my-0 px-0">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-6 items-start leading-7 mx-0 my-0 px-0">
           {/* Left Side - Title, Subtext & Features */}
-          <div className="space-y-8 animate-slide-in-up">
+          <div className="space-y-4 animate-slide-in-up">
             {/* Title Section */}
-            <div className="mb-4">
+            <div className="mb-2">
               <h2 className="text-4xl sm:text-5xl text-balance font-extrabold text-red-700 mx-0 my-[-11px]">
                 What is Broker4U?
               </h2>
             </div>
 
             {/* Main Description */}
-            <div className="space-y-4">
+            <div className="space-y-2">
               <p className="text-lg text-foreground font-semibold py-2.5 my-[-2px]">
                 India's first real estate marketplace built on a social media structure
               </p>
