@@ -4,7 +4,10 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    domains: ['broker4u.vercel.app'],
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [400, 600, 800, 1200],
+    minimumCacheTTL: 60,
   },
 }
 

@@ -1,0 +1,13 @@
+{
+  "images": {
+    "sizes": [400, 600, 800, 1200],
+    "domains": ["broker4u.vercel.app"],
+    "minimumCacheTTL": 60,
+    "formats": ["image/webp", "image/avif"]
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_VERCEL_URL": "broker4u.vercel.app"
+    }
+  }
+}
